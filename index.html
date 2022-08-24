@@ -1,0 +1,40 @@
+<html>
+    <head>
+        <title>Encriptador</title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <header>
+            <img src="logo.png" class="logoAlura">
+        </header>
+        <main>
+            <section class="sectionLeft">
+                <div class="imputTexto">
+                    <textarea class="textArea1" cols="50" rows="20" placeholder="Ingrese el texto aqui"></textarea>
+                </div>
+                <div class="informacion-box">
+                    <img src="Vector.png" class="logoInformacion">
+                    <p class="informacion">Solo letras y minusculas</p>
+                </div>
+                <div class="botones">
+                    <button class="encriptar" onclick="btnEncriptar()">Encriptar</button>
+                    <button class="desencriptar" onclick="btnDecencriptar()">Desencriptar</button>
+                </div>
+            </section>
+            <section class="sectionRight">
+                <div>
+                    <textarea class="mensaje" cols="30" rows="30" placeholder="Ningun mensaje fue encontrado"></textarea>
+                </div>
+                <div>
+                    <button class="copiar" onclick="btnCopiar()">Copiar</button>
+                </div>
+            </section>
+        </main>
+        <footer>
+
+        </footer>
+    </body>
+    <script src="script.js"></script>
+</html>
+

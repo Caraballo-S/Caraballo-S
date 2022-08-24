@@ -1,0 +1,99 @@
+*{
+    margin: 0%;
+    padding: 0%;
+
+}
+body{
+    background: #F3F5FC;
+    padding: 0 100px;
+}
+
+main{
+    display: flex;
+    margin-left: 150px;
+    margin-bottom: 50px;
+}
+
+.logoAlura{
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.imputTexto{
+   margin-top: 90px;
+}
+.textArea1{
+    font-family: 'Inter';
+    font-style: normal;
+    height: 556px;
+    width: 768px;
+    font-size: 32px;
+    line-height: 150%;
+    /* identical to box height, or 48px */
+    /* Dark blue/dark-blue-300 */
+    color: #0A3871;
+    border: none;
+    background: #F3F5FC;
+}
+
+.informacion-box{
+    display: flex;
+    margin-left: 20px;
+}
+.informacion{
+    margin-left: 10px;
+}
+
+.botones{
+   margin-top: 20px;
+   
+}
+.encriptar{
+    color: white;
+    margin-left: 20px;
+    width: 328px;
+    height: 67px;
+    background-color: #0A3871;
+    border-radius: 24px;
+    position: absolute;
+    top: 752;
+    left: 240
+}
+.desencriptar{
+    margin-left: 30px;
+    width: 328px;
+    height: 67px;
+    background-color: #D8DFE8;  /* Dark blue/dark-blue-300 */
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    position: absolute;
+    top: 752;
+    left: 590;
+}
+
+
+.mensaje {
+    height: 642px;
+    width: 321px;
+    font-size: 24px;
+    /* or 29px */
+    /* Gray/gray-500 */
+    color: #343A40;
+    position: relative;
+    margin-top: 20px;
+    margin-left: 90px;
+    background-image: url("Muñeco.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 350px;
+
+}
+.copiar{
+    position: relative;
+    margin-top: 20px;
+    margin-left: 90px;
+    width: 328px;
+    height: 67px;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    
+}
